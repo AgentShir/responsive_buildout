@@ -113,6 +113,9 @@ header{
     #sidebar_content{
       background-color: #ffffdd;
     }
+    #site_footer a{
+      background-color: #fedcad;
+    }
 }
 
 @media screen and (min-width: 1100px ){
@@ -140,5 +143,8 @@ header{
     }
     #sidebar_content{
       background-color: #ffffdd;
+    }
+    #site_footer a{
+      background-color: #fedcad;
     }
 }
