@@ -107,6 +107,12 @@ header{
       text-shadow: 0 1px 1px rgba( 0, 0, 0, 0.45 );
       box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.15 );
       }
+    #main_content{
+      background-color: #ddffff;
+    }
+    #sidebar_content{
+      background-color: #ffffdd;
+    }
 }
 
 @media screen and (min-width: 1100px ){
@@ -115,13 +121,24 @@ header{
       justify-content: space-around;
   }
   nav a{
-      background-color: #ffdddd;
-      color: red;
-      width: 200px;
-      line-height: 50px;
-      text-decoration: none;
-      box-shadow: 0px 5px 5px 0px gray;
-      text-shadow: 0px 1px 1px gray;
-      border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    flex-basis: 60%;
+    display: block;
+    padding: 20px 2%;
+    width: 100%;
+    color: red;
+    text-decoration: none;
+    background: #ffdddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    text-shadow: 0 1px 1px rgba( 0, 0, 0, 0.45 );
+    box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.15 );
+    }
+    #main_content{
+      background-color: #ddffff;
+    }
+    #sidebar_content{
+      background-color: #ffffdd;
     }
 }
