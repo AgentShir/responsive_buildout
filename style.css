@@ -90,7 +90,7 @@ header{
 @media screen and (min-width: 400px ){
   nav{
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
   }
   #main_nav a{
       font-weight: bold;
@@ -117,9 +117,12 @@ header{
     }
     #site_footer{
       display: block;
+      justify-content: space-around;
+      padding: 10px;
       background-color: #fedcad;
     }
     #site_footer a{
+      color: red;
       background-color: #fedcad;
     }
 }
@@ -154,9 +157,13 @@ header{
     }
     #site_footer{
       display: block;
+      justify-content: space-around;
+      padding: 10px;
+      display: block;
       background-color: #fedcad;
     }
     #site_footer a{
+      color: red;
       background-color: #fedcad;
     }
 }
@@ -189,9 +196,13 @@ header{
     }
     #site_footer{
       display: block;
+      justify-content: space-around;
+      padding: 10px;
+      display: block;
       background-color: #fedcad;
     }
     #site_footer a{
+      color: red;
       background-color: #fedcad;
     }
 }
