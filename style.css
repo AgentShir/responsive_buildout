@@ -108,16 +108,18 @@ header{
       box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.15 );
       }
     #main_content{
+      margin-bottom: 15px;
       padding: 10px;
       background-color: #ddffff;
     }
     #sidebar_content{
+      margin-bottom: 15px;
       padding: 10px;
       background-color: #ffffdd;
     }
     #site_footer{
       display: block;
-      justify-content: space-around;
+      justify-content: center;
       padding: 10px;
       background-color: #fedcad;
     }
@@ -148,16 +150,18 @@ header{
       box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.15 );
       }
     #main_content{
+      margin-bottom: 15px;
       padding: 10px;
       background-color: #ddffff;
     }
     #sidebar_content{
+      margin-bottom: 15px;
       padding: 10px;
       background-color: #ffffdd;
     }
     #site_footer{
       display: block;
-      justify-content: space-around;
+      justify-content: center;
       padding: 10px;
       display: block;
       background-color: #fedcad;
@@ -171,22 +175,22 @@ header{
 @media screen and (min-width: 1100px ){
   nav{
       display: flex;
-      justify-content: space-around;
+      flex-wrap: nowrap;
   }
   #main_nav a{
-    font-weight: bold;
-    text-decoration: none;
-    flex-basis: 60%;
-    display: block;
-    padding: 20px 2%;
-    width: 100%;
-    color: red;
-    text-decoration: none;
-    background: #ffdddd;
-    border-radius: 4px;
-    margin-bottom: 5px;
-    text-shadow: 0 1px 1px rgba( 0, 0, 0, 0.45 );
-    box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.15 );
+      font-weight: bold;
+      text-decoration: none;
+      flex-basis: 60%;
+      display: block;
+      padding: 20px 2%;
+      width: 100%;
+      color: red;
+      text-decoration: none;
+      background: #ffdddd;
+      border-radius: 4px;
+      margin-bottom: 5px;
+      text-shadow: 0 1px 1px rgba( 0, 0, 0, 0.45 );
+      box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.15 );
     }
     #main_content{
       background-color: #ddffff;
@@ -196,7 +200,7 @@ header{
     }
     #site_footer{
       display: block;
-      justify-content: space-around;
+      justify-content: center;
       padding: 10px;
       display: block;
       background-color: #fedcad;
