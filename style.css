@@ -126,6 +126,7 @@ header{
     #site_footer a{
       color: red;
       background-color: #fedcad;
+      text-decoration: none;
     }
 }
 
@@ -169,6 +170,7 @@ header{
     #site_footer a{
       color: red;
       background-color: #fedcad;
+      text-decoration: none;
     }
 }
 
@@ -211,5 +213,6 @@ header{
     #site_footer a{
       color: red;
       background-color: #fedcad;
+      text-decoration: none;
     }
 }
